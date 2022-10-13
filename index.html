@@ -1,27 +1,71 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#e4f600" />
-<style>
-.container {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 100%;
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f4f4" />
+    <style>
+  iframe {
+    overflow:hidden; 
+    position:fixed; 
+    top: -51px; left:0; bottom:0; right:0; 
+    width:100%; height:108%; 
+    border:none; 
+    margin:0; padding:0; 
+    overflow:hidden; 
+    z-index:999999;
+  }
+      /* For Desktop View */
+@media screen and (min-width: 1024px) {
+  iframe {
+    overflow:hidden; 
+    position:fixed; 
+    top: -51px; left:0; bottom:0; right:0; 
+    width:100%; height:108%; 
+    border:none; 
+    margin:0; padding:0; 
+    overflow:hidden; 
+    z-index:999999;
+  }
 }
-
-iframe {overflow:hidden}
-
-body {
-  overflow: hidden; /* Hide scrollbars */
+ 
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  iframe {
+    overflow:hidden; 
+    position:fixed; 
+    top: -51px; left:0; bottom:0; right:0; 
+    width:100%; height:108%; 
+    border:none; 
+    margin:0; padding:0; 
+    overflow:hidden; 
+    z-index:999999;
+  }
 }
-</style>
-</head>
-<body>
-    <iframe scrolling:"no" src="https://stefanosallemicv.wixsite.com/home" style="position:fixed; top: -51px; left:0; bottom:0; right:0; width:100%; height:108%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
-        Il tuo Browser non funziona
-    </iframe>
+ 
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 425px)
+and (orientation: portrait) {
+  iframe {
+    overflow:hidden; 
+    position:fixed; 
+    top: -51px; left:0; bottom:0; right:0; 
+    width:100%; height:108%; 
+    border:none; 
+    margin:0; padding:0; 
+    overflow:hidden; 
+    z-index:999999;
+  }
+}
+      body {overflow: hidden;} /* Hide scrollbars */
 
-</body>
+    </style>
+  </head>
+  <body>
+    <div>
+      <iframe scrolling:"no" src="https://stefanosallemicv.wixsite.com/home">
+        404 error
+      </iframe>
+    </div>
+  </body>
 </html>
