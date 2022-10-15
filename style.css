@@ -34,17 +34,6 @@ iframe {
       overflow:hidden;
       z-index:999999;
 }
-
-/* For Desktop View */
-@media screen and (min-width: 1024px) {
-    iframe {
-        transform: scale(1);
-        -webkit-transform: scale(1);
-        -moz-transform: scale(1);
-        -ms-transform: scale(1);
-        -o-transform: scale(1);
-}
-  }
    
   /* For Tablet View */
 @media screen and (min-device-width: 768px)
@@ -54,11 +43,11 @@ iframe {
         top: 960px;
         left: 20px;
         transform: scale(2.4);
-        -webkit-transform: scale(2.4);
-        -moz-transform: scale(2.4);
-        -ms-transform: scale(2.4);
-        -o-transform: scale(2.4);
-    }
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+}
 }
    
     /* For Mobile Portrait View */
