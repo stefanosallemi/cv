@@ -11,14 +11,15 @@ body {overflow: hidden;}
     overflow:hidden; 
     z-index:999999;
   } */
-  div {
+
+div {
       width: 320px;
       height: 192px;
       padding: 0;
       overflow: hidden;
-  }
+}
   
-  iframe {
+iframe {
       overflow:hidden;
       position:fixed;
       top: -51px;
@@ -34,35 +35,35 @@ body {overflow: hidden;}
       z-index:999999;
 }
    
-  /* For Tablet View */
-  @media screen and (min-device-width: 768px)
-  and (max-device-width: 1024px) {
+/* For Tablet View */
+@media screen and (min-device-width: 768px) {
     iframe {
         top: 960px;
         left: 20px;
-        transform: scale(2.4);
-        -webkit-transform: scale(2.4);
-        -moz-transform: scale(2.4);
-        -ms-transform: scale(2.4);
-        -o-transform: scale(2.4);
+        transform: scale(8);
+        -webkit-transform: scale(8);
+        -moz-transform: scale(8);
+        -ms-transform: scale(8);
+        -o-transform: scale(8);
+    }
 }
-  }
    
-    /* For Mobile Portrait View */
-    @media screen and (device-width: 425px) {
-        iframe {
-            top: 110px;
-            left: 10px;
-            transform: scale(1.4);
-            -webkit-transform: scale(1.4);
-            -moz-transform: scale(1.4);
-            -ms-transform: scale(1.4);
-            -o-transform: scale(1.4);
+/* For Mobile Portrait View */
+@media screen and (min-device-width: 425px) {
+    iframe {
+        top: 80px;
+        left: 10px;
+        transform: scale(4
+        +ù);
+        -webkit-transform: scale(4);
+        -moz-transform: scale(4);
+        -ms-transform: scale(4);
+        -o-transform: scale(4);
 }
-      }
+}
 
-  /* For Mobile Portrait View */
-  @media screen and (device-width: 375px) {
+/* For Mobile Portrait View */
+@media screen and (min-device-width: 375px) {
     iframe {
         top: 16px;
         left: 9px;
@@ -71,5 +72,5 @@ body {overflow: hidden;}
         -moz-transform: scale(1.17);
         -ms-transform: scale(1.17);
         -o-transform: scale(1.17);
+    }
 }
-  }
