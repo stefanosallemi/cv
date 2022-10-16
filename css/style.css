@@ -42,9 +42,8 @@ iframe {
   and (max-device-width: 1024px) {
     iframe {
         left: 2.6%;
-        top: 69%;
+        top: 62%;
         height: 110%;
-        margin-bottom: 100000000px;
         transform: scale(2.4);
         -webkit-transform: scale(2.4);
         -moz-transform: scale(2.4);
@@ -71,7 +70,7 @@ iframe {
 @media screen and (max-device-width: 375px) {
     iframe {
         left: 2.65%;
-        top: 1%;
+        top: 2%;
         transform: scale(1.172);
         -webkit-transform: scale(1.172);
         -moz-transform: scale(1.172);
@@ -82,10 +81,11 @@ iframe {
 
 @media screen and (device-width: 320px) {
     iframe {
-        transform: scale(1);
-        -webkit-transform: scale(1);
-        -moz-transform: scale(1);
-        -ms-transform: scale(1);
-        -o-transform: scale(1);
-    }
+        top: -2%;
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+}
 }
