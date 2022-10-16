@@ -50,11 +50,11 @@ iframe {
         -moz-transform: scale(2.4);
         -ms-transform: scale(2.4);
         -o-transform: scale(2.4);
-}
+    }
 }
    
     /* For Mobile Portrait View */
-@media screen and (device-width: 425px) {
+@media screen and (min-device-width: 425px) {
     iframe {
         left: 2.2%;
         top: 12%;
@@ -77,10 +77,10 @@ iframe {
         -moz-transform: scale(1.172);
         -ms-transform: scale(1.172);
         -o-transform: scale(1.172);
-    }
+}
 }
 
-@media screen and (device-width: 320px) {
+@media screen and (max-device-width: 320px) {
     iframe {
         top: -2%;
         transform: scale(1.1);
@@ -88,5 +88,5 @@ iframe {
         -moz-transform: scale(1.1);
         -ms-transform: scale(1.1);
         -o-transform: scale(1.1);
-}
+    }
 }
