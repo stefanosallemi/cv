@@ -56,7 +56,7 @@ iframe {
     /* For Mobile Portrait View */
 @media screen and (device-width: 425px) {
     iframe {
-        left: 2.65%;
+        left: 2.2%;
         top: 12%;
         height: 110%;
         transform: scale(1.37);
