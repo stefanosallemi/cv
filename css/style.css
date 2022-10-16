@@ -38,3 +38,55 @@ iframe {
       z-index:999999;
 }
  
+  /* For Tablet View */
+@media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    iframe {
+        left: 2.6%;
+        top: 62%;
+        height: 110%;
+        transform: scale(2.4);
+        -webkit-transform: scale(2.4);
+        -moz-transform: scale(2.4);
+        -ms-transform: scale(2.4);
+        -o-transform: scale(2.4);
+}
+}
+   
+    /* For Mobile Portrait View */
+@media screen and (device-width: 425px) {
+    iframe {
+        left: 2.2%;
+        top: 12%;
+        height: 110%;
+        transform: scale(1.37);
+        -webkit-transform: scale(1.37);
+        -moz-transform: scale(1.37);
+        -ms-transform: scale(1.37);
+        -o-transform: scale(1.37);
+    }
+}
+  
+  /* For Mobile Portrait View */
+@media screen and (max-device-width: 375px) {
+    iframe {
+        left: 2.65%;
+        top: 2%;
+        transform: scale(1.172);
+        -webkit-transform: scale(1.172);
+        -moz-transform: scale(1.172);
+        -ms-transform: scale(1.172);
+        -o-transform: scale(1.172);
+    }
+}
+
+@media screen and (device-width: 320px) {
+    iframe {
+        top: -2%;
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+}
+}
