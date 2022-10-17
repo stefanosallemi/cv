@@ -89,16 +89,28 @@ iframe {
 }
  */
 
- @media only screen and (min-width: 600px) {
-    html {
-      zoom: .8;
-    }
+ @media only screen and (min-width: 375px) {
+    iframe {
+        top: 10px;
+        left: 2.65%;
+        transform: scale(1.17);
+        -webkit-transform: scale(1.17);
+        -moz-transform: scale(1.17);
+        -ms-transform: scale(1.17);
+        -o-transform: scale(1.17);
+}
   }
 
-  @media only screen and (min-width: 800px) {
-    html {
-      zoom: .9;        
-    }
+  @media only screen and (min-width: 425px) {
+    iframe {
+        top: 80px;
+        left: 2.4%;
+        transform: scale(1.33);
+        -webkit-transform: scale(1.33);
+        -moz-transform: scale(1.33);
+        -ms-transform: scale(1.33);
+        -o-transform: scale(1.33);
+}
   }
 
   @media only screen and (min-width: 1000px) {
