@@ -36,6 +36,8 @@ iframe {
       padding:0;
       overflow:hidden;
       z-index:999999;
+      border:none;
+      margin: 0px
 }
 /* 
 @media screen and (min-device-width: 768px)
@@ -89,10 +91,9 @@ iframe {
 }
  */
 
- @media only screen and (min-width: 375px) {
+ @media only screen and (max-width: 375px) {
     iframe {
         top: 10px;
-        left: 2.65%;
         transform: scale(1.17);
         -webkit-transform: scale(1.17);
         -moz-transform: scale(1.17);
@@ -101,7 +102,7 @@ iframe {
 }
   }
 
-  @media only screen and (min-width: 425px) {
+/*   @media only screen and (min-width: 425px) {
     iframe {
         top: 80px;
         left: 2.4%;
@@ -112,9 +113,4 @@ iframe {
         -o-transform: scale(1.33);
 }
   }
-
-  @media only screen and (min-width: 1000px) {
-    html {
-      zoom: 1;
-    }
-  }
+ */
